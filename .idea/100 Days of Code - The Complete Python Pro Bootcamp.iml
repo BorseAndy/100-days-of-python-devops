@@ -3,8 +3,9 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.idea/VirtualEnvironment" />
+      <excludeFolder url="file://$MODULE_DIR$/.venv" />
     </content>
-    <orderEntry type="jdk" jdkName="3.12 WSL (Ubuntu): (/home/borse/projects/100 Days of Code - The Complete Python Pro Bootcamp/venv/bin/python)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.13 (100-days-of-python-devops)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">

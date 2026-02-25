@@ -4,3 +4,5 @@ cmake-build-*/
 .venv/
 venv/
 *.md
+**/__pycache__/
+*.pyc

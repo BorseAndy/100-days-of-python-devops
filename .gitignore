@@ -3,6 +3,6 @@
 cmake-build-*/
 .venv/
 venv/
-*.md
+GEMINI.md
 **/__pycache__/
 *.pyc

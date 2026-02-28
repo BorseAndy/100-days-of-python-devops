@@ -1,0 +1,2 @@
+This is the new content. The old content is gone!
+This line was added using append mode!

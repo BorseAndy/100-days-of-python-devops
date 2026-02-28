@@ -1,28 +1,25 @@
 # 🧠 Project Memory
 
-**Last Updated:** 2026-02-27
-**Course Status:** Day 22 / Progress: Pong Game Finalized
+**Last Updated:** 2026-02-28
+**Course Status:** Day 23 / Progress: Turtle Crossing Capstone Completed
 
 **Accumulated Key Concepts:**
 - **Python Fundamentals (Days 1-10):** Data types, control flow, functions.
 - **Scope & Debugging (Days 11-15):** Variable management and troubleshooting.
-- **OOP (Days 16-17, 20-22):** Class modeling, inheritance (`Turtle`), logical encapsulation.
-- **Events & Control (Days 19, 22):** `screen.listen()`, `onkey()`, `tracer(0)`.
-- **Game Logic (Day 22):** Collision detection, ball physics (bouncing), state resets, and scoring mechanisms.
+- **OOP (Days 16-17, 20-23):** Class modeling, inheritance (`Turtle`), logical encapsulation, and list-based management of multiple objects.
+- **Events & Control (Days 19, 22-23):** `screen.listen()`, `onkey()`, `tracer(0)`.
+- **Game Logic (Day 22-23):** Collision detection (distance formula), object recycling vs. continuous generation, state resets, level-up speed progression.
 
-**Current Focus (Day 22):**
-- [x] Setting up the Pong screen (800x600).
-- [x] Refactoring the paddle into a separate class (`Paddle`).
-- [x] Creating both right and left paddles with independent controls.
-- [x] Implementing the `Ball` class with movement and bouncing logic (`bounce_y`, `bounce_x`).
-- [x] Implementing collision detection with paddles and walls.
-- [x] Creating a `Scoreboard` class to track and display points.
-- [x] Adding ball speed progression and point-based resets.
+**Current Focus (Day 23):**
+- [x] Setting up the Turtle Crossing screen (600x600).
+- [x] Creating a `Player` class with movement and finish line detection.
+- [x] Implementing a `CarManager` that manages a list of `Turtle` objects.
+- [x] Adding random car generation and variable speed progression on level completion.
+- [x] Implementing a `Scoreboard` for level tracking and Game Over state.
 
 **Open Notes/Bugs:**
-- *None recorded for Day 22.*
+- *Memory Optimization:* Consider clearing car objects that move off-screen to prevent memory growth over long sessions.
 
 **Next Steps (Day 23+):**
-- **Day 23:** Turtle Crossing Capstone project.
 - **Day 24:** Working with local file systems (Mail Merge Project).
 - **Day 25:** Data analysis with Pandas (CSV processing).

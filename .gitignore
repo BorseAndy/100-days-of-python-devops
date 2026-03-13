@@ -4,5 +4,6 @@ cmake-build-*/
 .venv/
 venv/
 GEMINI.md
+troubleshooting_and_hints.md
 **/__pycache__/
 *.pyc
